@@ -1,0 +1,144 @@
+.active, .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    z-index: 10000;
+    transition: all 0.2s ease-in-out;
+    height: auto;
+    text-transform: uppercase;
+    
+}
+.active { 
+    background-color: white;
+    color: black;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+.header {
+    background-color:transparent;
+    color: white;
+}
+.content {
+    width: auto;
+    height: 800px;
+    background-color: rgb(255, 255, 56);
+    padding: 150px 10px 20px 10px;
+    text-align: center;
+}
+
+body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+#headers{
+    display: flex;
+}
+#headers > div{
+    
+}
+#menu, #logo{
+    width: 50%;
+    height: auto;
+    text-align: center;
+    font-size: 1.3em;
+}
+#menu ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 3em;
+}
+#menu ul li:hover, #logo h1:hover{
+    color: #ffcc66;
+    cursor: pointer;
+}
+.button{
+    border-radius: 300px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: white solid 2px;
+    margin: 3px;
+    cursor: pointer;
+    width: 350px;
+    text-align: center;
+    font-size: large;
+}
+.button:hover{
+    background-color: white;
+    color: black;
+}
+.flex_container1{
+    display: flex;
+    justify-content: left;
+    width: auto;
+    height: 790px;
+    background-color: black;
+    background-image: url("../images/bg_red_pattern.jpg");
+    padding: 150px 10px 20px 10px;
+    color: white;
+}
+.flex_container2{
+    display: flex;
+    justify-content: right;
+    width: auto;
+    height: 790px;
+    background-color: rgb(209, 207, 56);
+    background-image: url("../images/bg_red_pattern.jpg11");
+    padding: 50px 10px 20px 10px;
+    color: black;
+}
+.flex_container3{
+    display: flex;
+    justify-content: left;
+    width: auto;
+    height: 790px;
+    background-color: black;
+    background-image: url("../images/bg_red_pattern.jpg");
+    padding: 50px 10px 20px 10px;
+    color: white;
+}
+.flex_container4{
+    display: flex;
+    justify-content: right;
+    width: auto;
+    height: 790px;
+    background-color: rgb(209, 207, 56);
+    background-image: url("../images/bg_white_pattern.jpg");
+    padding: 50px 10px 20px 10px;
+    color: black;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 790px;
+    background-color: black;
+    background-image: url("../images/bg_red_pattern.jpg");
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+
+.center_one{
+    width: 50%;
+    padding-top: 250px;
+    line-height: 5em;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.first_con  {
+    width: 50%;
+    padding-top: 200px;
+    padding-left: 100px;
+    line-height: 5em;
+}
+.common_con{
+    width: 50%;
+    padding-top: 60px;
+    line-height: 5em;
+    padding-right: 100px;
+    padding-left: 100px;
+}

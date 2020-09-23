@@ -1,0 +1,98 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <title>Test</title>
+    <style>
+        .placeHolder {
+            width: auto;
+            height: 900px;
+            background-color: aqua;
+        }
+        .header, .active {
+            position: fixed;
+            width: 100%;
+            height: auto;
+            transition: ease-in-out .5s;
+        }
+        .active {
+            background-color: white;
+            color: black;
+        }
+        .header {
+            background-color: transparent;
+            color: black;
+        }
+
+        body{
+            border: 0;
+            margin: 0;
+            padding: 0;
+        }
+        #headers{
+            display: flex;
+        }
+        #headers > div{
+            
+        }
+        #menu, #logo{
+            width: 50%;
+            height: auto;
+            text-align: center;
+            font-size: 2em;
+        }
+        #menu ul{
+            text-decoration: none;
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+            line-height: 3.5em;
+        }
+        #menu ul li:hover, #logo h1:hover{
+            color: yellow;
+            cursor: pointer;
+        }
+        .button{
+            border-radius: 300px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            border: red solid 2px;
+            margin: 3px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="headers">
+        <div id="logo"><h1>Elvin Hiruthayanathan</h1></div>
+        <div id="menu">
+            <ul>
+                <li>Contact</li>
+                <li>test</li>
+            </ul>
+        </div>
+    </div>
+    <div class=placeHolder></div>
+    <div class=placeHolder></div>
+    <div class=placeHolder></div>
+    <div class=placeHolder></div>
+    <div class=placeHolder></div>
+    <script>
+        document.onscroll = function () { cheHeader() };
+        function cheHeader() {
+            element = document.getElementById("headers");
+            if (window.pageYOffset > 60) {
+                element.classList.remove("header");
+                element.classList.add("active");
+            } else {
+                element.classList.remove("active");
+                element.classList.add("header");
+            };
+        }
+        let element = document.getElementById("headers");
+        element.classList.add("header");
+    </script>
+</body>
+</html>

@@ -31,6 +31,7 @@ body{
     border: 0;
     margin: 0;
     padding: 0;
+    text-shadow: 2px 1px 2px black;
 }
 #headers{
     display: flex;
@@ -43,6 +44,7 @@ body{
     height: auto;
     text-align: center;
     font-size: 1.3em;
+    text-shadow: none;
 }
 #menu ul{
     text-decoration: none;
@@ -52,7 +54,7 @@ body{
     line-height: 3em;
 }
 #menu ul li:hover, #logo h1:hover{
-    color: #ffcc66;
+    color: rgb(209, 207, 56);
     cursor: pointer;
 }
 .button{
@@ -74,9 +76,10 @@ body{
     display: flex;
     justify-content: left;
     width: auto;
-    height: 790px;
+    height: 900px;
     background-color: black;
     background-image: url("../images/bg_red_pattern.jpg");
+    background-attachment: fixed;
     padding: 10px;
     color: white;
 }
@@ -86,9 +89,11 @@ body{
     width: auto;
     height: 790px;
     background-color: rgb(209, 207, 56);
-    background-image: url("../images/bg_red_pattern.jpg11");
+    background-image: url("../images/bg_computer.jpg");
+    background-attachment: scroll;
     padding: 50px 10px 20px 10px;
-    color: black;
+    color:  whitesmoke;
+    
 }
 .flex_container3{
     display: flex;
@@ -96,7 +101,8 @@ body{
     width: auto;
     height: 790px;
     background-color: black;
-    background-image: url("../images/bg_red_pattern.jpg");
+    background-image: url("../images/bg_red_pattern.jpg1");
+    background-attachment: fixed;
     padding: 50px 10px 20px 10px;
     color: white;
 }
@@ -106,9 +112,10 @@ body{
     width: auto;
     height: 790px;
     background-color: rgb(209, 207, 56);
-    background-image: url("../images/bg_white_pattern.jpg");
+    background-image: url("../images/bg_black_pattern.jpg");
+    background-attachment: local;
     padding: 50px 10px 20px 10px;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 .footer{
     display: flex;
@@ -117,6 +124,7 @@ body{
     height: 790px;
     background-color: black;
     background-image: url("../images/bg_red_pattern.jpg");
+    background-attachment: fixed;
     padding: 50px;
     color: white;
     text-align: center;
@@ -124,7 +132,7 @@ body{
 
 .center_one{
     width: 50%;
-    padding-top: 100px;
+    padding-top: 300px;
     line-height: 5em;
     padding-right: 100px;
     padding-left: 100px;

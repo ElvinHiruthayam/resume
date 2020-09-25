@@ -64,9 +64,9 @@ body{
     border: white solid 2px;
     margin: 1px;
     cursor: pointer;
-    width: 350px;
+    width: 200px;
     text-align: center;
-    font-size: 1em;
+    font-size: .5em;
 }
 .button:hover{
     background-color: white;

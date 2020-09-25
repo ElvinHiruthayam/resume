@@ -72,61 +72,47 @@ body{
     background-color: white;
     color: black;
 }
+.common_container{
+    width: auto;
+    height: 1000px;
+    padding: 50px 10px 20px 10px;
+    color: white;
+    
+}
 .flex_container1{
     display: flex;
     justify-content: left;
-    width: auto;
-    height: 900px;
     background-color: black;
     background-image: url("../images/bg_red_pattern.jpg");
     background-attachment: fixed;
-    padding: 10px;
-    color: white;
 }
 .flex_container2{
     display: flex;
     justify-content: right;
-    width: auto;
-    height: 790px;
     background-color: rgb(209, 207, 56);
     background-image: url("../images/bg_computer.jpg");
     background-attachment: scroll;
-    padding: 50px 10px 20px 10px;
-    color:  whitesmoke;
-    
 }
 .flex_container3{
     display: flex;
     justify-content: left;
-    width: auto;
-    height: 790px;
     background-color: black;
     background-image: url("../images/spider.jpg");
     background-attachment: fixed;
-    padding: 50px 10px 20px 10px;
-    color: white;
 }
 .flex_container4{
     display: flex;
     justify-content: right;
-    width: auto;
-    height: 790px;
     background-color: rgb(209, 207, 56);
     background-image: url("../images/bg_black_pattern.jpg");
     background-attachment: local;
-    padding: 50px 10px 20px 10px;
-    color: rgb(255, 255, 255);
 }
 .footer{
     display: flex;
     justify-content: center;
-    width: auto;
-    height: 790px;
     background-color: black;
     background-image: url("../images/bg_red_pattern.jpg");
     background-attachment: fixed;
-    padding: 50px;
-    color: white;
     text-align: center;
 }
 

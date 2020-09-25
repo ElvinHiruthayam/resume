@@ -75,9 +75,10 @@
         </div>
     </div>
     <div class=placeHolder></div>
-    <div class=placeHolder></div>
-    <div class=placeHolder></div>
-    <div class=placeHolder></div>
+    <textarea id="myText">
+        Lorem ipsum...
+    </textarea>
+    <button onclick="sendMail(); return false">Send</button>
     <div class=placeHolder></div>
     <script>
         document.onscroll = function () { cheHeader() };
@@ -93,6 +94,17 @@
         }
         let element = document.getElementById("headers");
         element.classList.add("header");
+
+        function sendMail() {
+            var link = "mailto:elvinbca.ngp@gmail.com"
+                    + "?cc=elvinbca.ngp@gmail.com"
+                    + "&subject=" + encodeURIComponent("This is my subject")
+                    + "&body=" + encodeURIComponent(document.getElementById('myText').value)
+            ;
+            
+            window.location.href = link;
+        }
+        
     </script>
 </body>
 </html>

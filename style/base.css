@@ -118,10 +118,9 @@ body{
 
 .center_one{
     width: 50%;
-    padding-top: 300px;
+    padding: 100px;
     line-height: 4em;
-    padding-right: 100px;
-    padding-left: 100px;
+    height: 400px;
 }
 .first_con  {
     width: 50%;

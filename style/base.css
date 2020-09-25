@@ -62,11 +62,11 @@ body{
     letter-spacing: 2px;
     text-transform: uppercase;
     border: white solid 2px;
-    margin: 3px;
+    margin: 1px;
     cursor: pointer;
     width: 350px;
     text-align: center;
-    font-size: large;
+    font-size: 1em;
 }
 .button:hover{
     background-color: white;
@@ -74,7 +74,7 @@ body{
 }
 .common_container{
     width: auto;
-    height: 1000px;
+    height: auto;
     padding: 50px 10px 20px 10px;
     color: white;
     
@@ -119,20 +119,20 @@ body{
 .center_one{
     width: 50%;
     padding-top: 300px;
-    line-height: 5em;
+    line-height: 4em;
     padding-right: 100px;
     padding-left: 100px;
 }
 .first_con  {
     width: 50%;
-    padding-top: 200px;
-    padding-left: 100px;
-    line-height: 5em;
+    padding-top: 100px;
+    padding-left: 50px;
+    line-height: 4em;
 }
 .common_con{
     width: 50%;
     padding-top: 60px;
-    line-height: 5em;
+    line-height: 4em;
     padding-right: 100px;
     padding-left: 100px;
 }
